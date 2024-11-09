@@ -1,4 +1,3 @@
-%undefine _debugsource_packages
 %define oname Alpaca
 
 Name:           alpaca
@@ -23,7 +22,7 @@ BuildRequires:  pkgconfig(gtksourceview-5)
 
 Requires:  numactl
 Requires:  gtk4
-Requires:  vtk3
+Requires:  vte3
 Requires:  python3
 Requires:  python-pypdf
 Requires:  python-pytube
