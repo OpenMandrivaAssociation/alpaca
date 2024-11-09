@@ -9,7 +9,7 @@ Group:          Tools
 URL:            https://jeffser.com/alpaca/
 Source0:        https://github.com/Jeffser/Alpaca/archive/%{version}/%{oname}-%{version}.tar.gz
 
-BuildRequires:  appstream-util
+BuildRequires:  appstream
 BuildRequires:  meson
 BuildRequires:  gettext-devel
 BuildRequires:  pkgconfig(gtk4)
