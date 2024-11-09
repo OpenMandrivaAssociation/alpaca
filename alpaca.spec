@@ -24,6 +24,7 @@ BuildRequires:  pkgconfig(gtksourceview-5)
 Requires:  numactl
 Requires:  gtk4
 Requires:  vte3
+Requires:  %{_lib}vte-gir3.91
 Requires:  python3
 Requires:  python-pypdf
 Requires:  python-pytube
