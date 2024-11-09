@@ -5,8 +5,8 @@ Version:        2.7.0
 Release:        1
 Summary:        An Ollama client made with GTK4 and Adwaita 
 License:        GPL-3.0
-Group:          Networking/Instant Messenger
-URL:            https://github.com/Jeffser/Alpaca/
+Group:          Tools
+URL:            https://jeffser.com/alpaca/
 Source0:        https://github.com/Jeffser/Alpaca/archive/%{version}/%{oname}-%{version}.tar.gz
 
 BuildRequires:  appstream-util
@@ -20,12 +20,16 @@ BuildRequires:  pkgconfig(vte-2.91-gtk4)
 BuildRequires:  pkgconfig(python)
 BuildRequires:  pkgconfig(gtksourceview-5)
 
+Requires:  numactl
 Requires:  gtk4
 Requires:  vtk3
 Requires:  python3
-python-pypdf
-python-pytube
-python-html2text
+Requires:  python-pypdf
+Requires:  python-pytube
+Requires:  python-html2text
+Requires:  python-requests
+Requires:  python-pillow
+Requires:  python-youtube-transcript-api
 
 Requires: ollama
 
