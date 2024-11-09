@@ -48,4 +48,14 @@ Alpaca provides an easy and begginer friendly way of interacting with local AI, 
 %install
 %meson_install
 
-%files
+%find_lang %{name}
+
+%files -f %{name}.lang
+%{_bindir}/alpaca
+%{_datadir}/Alpaca/
+%{_datadir}/applications/com.jeffser.Alpaca.desktop
+%{_datadir}/glib-2.0/schemas/com.jeffser.Alpaca.gschema.xml
+%{_datadir}/metainfo/com.jeffser.Alpaca.metainfo.xml
+%{_iconsdir}/hicolor/*x*/apps/com.jeffser.Alpaca.png
+%{_iconsdir}/hicolor/scalable/apps/com.jeffser.Alpaca.svg
+%{_iconsdir}/hicolor/symbolic/apps/com.jeffser.Alpaca-symbolic.svg
