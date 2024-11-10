@@ -25,6 +25,7 @@ Requires:  numactl
 Requires:  gtk4
 Requires:  vte3
 Requires:  %{_lib}vte-gir3.91
+Requires:  libadwaita-common
 Requires:  python3
 Requires:  python-pypdf
 Requires:  python-pytube
