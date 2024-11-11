@@ -33,6 +33,8 @@ Requires:  python-html2text
 Requires:  python-requests
 Requires:  python-pillow
 Requires:  python-youtube-transcript-api
+Requires:  python-gobject3
+Requires:  python-gi
 
 Requires: ollama
 
