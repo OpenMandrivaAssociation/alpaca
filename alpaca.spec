@@ -56,8 +56,12 @@ Alpaca provides an easy and begginer friendly way of interacting with local AI, 
 
 %files -f %{name}.lang
 %{_bindir}/alpaca
+%{_bindir}/alpaca_search_provider
 %{_datadir}/Alpaca/
 %{_datadir}/applications/com.jeffser.Alpaca.desktop
+%{_datadir}/applications/com.jeffser.Alpaca.SearchProvider.desktop
+%{_datadir}/dbus-1/services/com.jeffser.Alpaca.SearchProvider.service
+%{_datadir}/gnome-shell/search-providers/com.jeffser.Alpaca.search-provider.ini
 %{_datadir}/glib-2.0/schemas/com.jeffser.Alpaca.gschema.xml
 %{_datadir}/metainfo/com.jeffser.Alpaca.metainfo.xml
 %{_iconsdir}/hicolor/*x*/apps/com.jeffser.Alpaca.png
