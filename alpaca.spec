@@ -2,8 +2,8 @@
 %define oname Alpaca
 
 Name:           alpaca
-Version:        2.9.0
-Release:        2
+Version:        3.1.0
+Release:        1
 Summary:        An Ollama client made with GTK4 and Adwaita 
 License:        GPL-3.0
 Group:          Tools
@@ -36,6 +36,7 @@ Requires:  python-youtube-transcript-api
 Requires:  python-gobject3
 Requires:  python-gi
 Requires:  python-pydbus
+Requires:  python-icu
 
 Requires: ollama
 
