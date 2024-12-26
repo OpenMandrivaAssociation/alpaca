@@ -36,6 +36,7 @@ Requires:  python-youtube-transcript-api
 Requires:  python-gobject3
 Requires:  python-gi
 Requires:  python-pydbus
+Requires:  python-icu
 
 Requires: ollama
 
