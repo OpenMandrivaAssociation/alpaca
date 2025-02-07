@@ -2,8 +2,8 @@
 %define oname Alpaca
 
 Name:           alpaca
-Version:        3.2.0
-Release:        2
+Version:        4.0.1
+Release:        1
 Summary:        An Ollama client made with GTK4 and Adwaita 
 License:        GPL-3.0
 Group:          Tools
@@ -27,6 +27,7 @@ Requires:  vte3
 Requires:  %{_lib}vte-gir3.91
 Requires:  libadwaita-common
 Requires:  typelib(Adw)
+Requires:  typelib(Spelling)
 Requires:  python3
 Requires:  python-pypdf
 Requires:  python-pytube
