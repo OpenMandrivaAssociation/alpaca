@@ -3,7 +3,7 @@
 
 Name:           alpaca
 Version:        4.0.1
-Release:        1
+Release:        2
 Summary:        An Ollama client made with GTK4 and Adwaita 
 License:        GPL-3.0
 Group:          Tools
@@ -20,15 +20,14 @@ BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(vte-2.91-gtk4)
 BuildRequires:  pkgconfig(python)
 BuildRequires:  pkgconfig(gtksourceview-5)
+BuildRequires:	pkgconfig(gobject-introspection-1.0)
 
 Requires:  numactl
 Requires:  gtk4
 Requires:  vte3
 Requires:  %{_lib}vte-gir3.91
 Requires:  libadwaita-common
-Requires:  typelib(Adw)
-Requires:  typelib(Spelling)
-Requires:  python3
+Requires:  python >= 3.0
 Requires:  python-pypdf
 Requires:  python-pytube
 Requires:  python-html2text
