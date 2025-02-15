@@ -3,7 +3,7 @@
 
 Name:           alpaca
 Version:        4.0.1
-Release:        2
+Release:        3
 Summary:        An Ollama client made with GTK4 and Adwaita 
 License:        GPL-3.0
 Group:          Tools
