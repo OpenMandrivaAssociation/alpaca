@@ -40,6 +40,7 @@ Requires:  python-pydbus
 Requires:  python-icu
 Requires:  python-odf-tools
 Requires:  python-odf
+Requires:  python-matplotlib
 
 Requires: ollama
 
