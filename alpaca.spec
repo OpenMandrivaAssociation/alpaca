@@ -41,6 +41,8 @@ Requires:  python-icu
 Requires:  python-odf-tools
 Requires:  python-odf
 Requires:  python-matplotlib
+Requires:  python-openai
+Requires:  python-pydantic-core >= 2.30.0
 
 Requires: ollama
 
