@@ -2,8 +2,8 @@
 %define oname Alpaca
 
 Name:           alpaca
-Version:        4.0.1
-Release:        3
+Version:        5.0.6
+Release:        1
 Summary:        An Ollama client made with GTK4 and Adwaita 
 License:        GPL-3.0
 Group:          Tools
@@ -41,6 +41,8 @@ Requires:  python-icu
 Requires:  python-odf-tools
 Requires:  python-odf
 Requires:  python-matplotlib
+Requires:  python-openai
+Requires:  python-pydantic-core >= 2.30.0
 
 Requires: ollama
 
