@@ -14,6 +14,7 @@ BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  meson
 BuildRequires:  gettext-devel
+BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
