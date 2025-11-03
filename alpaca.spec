@@ -2,7 +2,7 @@
 %define oname Alpaca
 
 Name:           alpaca
-Version:        5.3.0
+Version:        8.3.1
 Release:        1
 Summary:        An Ollama client made with GTK4 and Adwaita 
 License:        GPL-3.0
@@ -11,8 +11,10 @@ URL:            https://jeffser.com/alpaca/
 Source0:        https://github.com/Jeffser/Alpaca/archive/%{version}/%{oname}-%{version}.tar.gz
 
 BuildRequires:  appstream
+BuildRequires:  desktop-file-utils
 BuildRequires:  meson
 BuildRequires:  gettext-devel
+BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
@@ -26,6 +28,7 @@ Requires:  numactl
 Requires:  gtk4
 Requires:  vte3
 Requires:  %{_lib}vte-gir3.91
+Requires:  typelib(Spelling)
 Requires:  libadwaita-common
 Requires:  python >= 3.0
 Requires:  python-pypdf
@@ -43,6 +46,8 @@ Requires:  python-odf
 Requires:  python-matplotlib
 Requires:  python-openai
 Requires:  python-pydantic-core >= 2.30.0
+Requires:  python-opencv
+Requires:  python-markitdown
 
 Requires: ollama
 
