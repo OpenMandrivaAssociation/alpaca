@@ -28,6 +28,7 @@ Requires:  numactl
 Requires:  gtk4
 Requires:  vte3
 Requires:  %{_lib}vte-gir3.91
+Requires:  typelib(Spelling)
 Requires:  libadwaita-common
 Requires:  python >= 3.0
 Requires:  python-pypdf
@@ -45,6 +46,8 @@ Requires:  python-odf
 Requires:  python-matplotlib
 Requires:  python-openai
 Requires:  python-pydantic-core >= 2.30.0
+Requires:  python-opencv
+Requires:  python-markitdown
 
 Requires: ollama
 
