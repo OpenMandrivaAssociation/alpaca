@@ -56,7 +56,7 @@ Alpaca is an Ollama client where you can manage and chat with multiple models,
 Alpaca provides an easy and begginer friendly way of interacting with local AI, everything is open source and powered by Ollama.
 
 %prep
-%autosetup -n Alpaca-9.2.4 -p1
+%autosetup -n %{oname}-%{version} -p1
 
 %build
 %meson
