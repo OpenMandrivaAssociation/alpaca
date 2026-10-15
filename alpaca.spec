@@ -2,7 +2,7 @@
 %define oname Alpaca
 
 Name:           alpaca
-Version:        9.2.4
+Version:        9.2.5
 Release:        1
 Summary:        An Ollama client made with GTK4 and Adwaita 
 License:        GPL-3.0
